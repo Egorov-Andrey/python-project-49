@@ -41,3 +41,7 @@
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Egorov-Andrey_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Egorov-Andrey_python-project-49)
 
+
+### Asciinema - brain-games
+
+![brain-games]https://asciinema.org/a/BuAa2DkaWyyTJxsqVDF3RA7iK
