@@ -44,4 +44,4 @@
 
 ### Asciinema - brain-games
 
-![brain-games]https://asciinema.org/a/BuAa2DkaWyyTJxsqVDF3RA7iK
+https://asciinema.org/a/BuAa2DkaWyyTJxsqVDF3RA7iK
