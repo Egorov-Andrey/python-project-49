@@ -6,3 +6,4 @@ PRIME_INSTUCTION = 'Answer "yes" if given number is prime.' \
                     ' Otherwise answer"no".'
 MATH_SIGNS = ('+', '-', '*')
 AMOUNT_OF_ROUND = 3
+MIN_PROGR_LENGHT, MAX_PROGR_LENGHT = 5, 10
