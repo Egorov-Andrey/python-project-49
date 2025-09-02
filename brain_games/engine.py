@@ -23,5 +23,5 @@ def run_game(get_question_and_answer, instruction):
             
             return 
 
-    print(f"Congratulations {name}!") 
+    print(f"Congratulations, {name}!") 
 
