@@ -1,7 +1,7 @@
 import random
 
-from brain_games.consts import GCD_INSTUCTION
-from brain_games.engine import run_game
+from .consts import GCD_INSTRUCTION
+from .engine import run_game
 
 
 def get_two_num_and_gcd_answer():
@@ -20,4 +20,4 @@ def get_two_num_and_gcd_answer():
 
 
 def run_gcd_game():
-    run_game(get_two_num_and_gcd_answer, GCD_INSTUCTION)
+    run_game(get_two_num_and_gcd_answer, GCD_INSTRUCTION)

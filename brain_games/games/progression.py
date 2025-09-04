@@ -1,11 +1,12 @@
 import random
 
-from brain_games.consts import (
+from brain_games.games.engine import run_game
+
+from .consts import (
     MAX_PROGR_LENGHT,
     MIN_PROGR_LENGHT,
-    PROGRSSION_INSTUCTION,
+    PROGRESSION_INSTRUCTION,
 )
-from brain_games.engine import run_game
 
 
 def progr():
@@ -16,7 +17,7 @@ def progr():
     for i in range(progr_lenght):
         progr.append(start + step * i)
 
-    missed_index = random.randint(0, progr_lenght)
+    missed_index = random.randint(0, progr_lenght - 1)
     missed_num = progr[missed_index]
     progr[missed_index] = '..'
     progr_with_missed_num = ' '.join(map(str, progr))
@@ -25,7 +26,7 @@ def progr():
 
 
 def run_progression_game():
-    run_game(progr, PROGRSSION_INSTUCTION)
+    run_game(progr, PROGRESSION_INSTRUCTION)
 
 
 

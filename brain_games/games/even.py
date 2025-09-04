@@ -1,7 +1,7 @@
 import random
 
-from brain_games.consts import EVEN_INSTUCTION
-from brain_games.engine import run_game
+from .consts import EVEN_INSTRUCTION
+from .engine import run_game
 
 
 def is_even(number_question):
@@ -19,5 +19,5 @@ def get_num_and_even_ans() -> tuple:
 
 
 def run_even_game():
-    run_game(get_num_and_even_ans, EVEN_INSTUCTION)
+    run_game(get_num_and_even_ans, EVEN_INSTRUCTION)
 
