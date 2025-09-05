@@ -1,4 +1,4 @@
-import random
+import secrets
 
 from .consts import PRIME_INSTRUCTION
 from .engine import run_game
@@ -15,7 +15,7 @@ def is_prime(number):
 
 
 def get_num_and_prime_ans():
-    number_question = random.randint(1, 100)
+    number_question = secrets.randbelow(100) + 1
 
     result = 'yes' if is_prime(number_question) else 'no'
 

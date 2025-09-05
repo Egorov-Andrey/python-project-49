@@ -1,4 +1,4 @@
-import random
+import secrets
 
 from .consts import CALC_INSTRUCTION, MATH_SIGNS
 from .engine import run_game
@@ -19,9 +19,9 @@ def get_result_by_math_sign(number_1, number_2, math_sign):
 
 def get_math_expression_and_result():
 
-    number_1, number_2 = random.randint(1, 100), random.randint(1, 100)
+    number_1, number_2 = secrets.randbelow(100) + 1, secrets.randbelow(100) + 1
 
-    math_sign = random.choice(MATH_SIGNS)
+    math_sign = secrets.choice(MATH_SIGNS)
 
     result = get_result_by_math_sign(number_1, number_2, math_sign)
 

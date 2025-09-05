@@ -1,4 +1,4 @@
-import random
+import secrets
 
 from .consts import EVEN_INSTRUCTION
 from .engine import run_game
@@ -11,7 +11,7 @@ def is_even(number_question):
 
 def get_num_and_even_ans() -> tuple:
 
-    number_question = random.randint(1, 100)
+    number_question = secrets.randbelow(100) + 1
 
     result = 'yes' if is_even(number_question) else 'no'
     
